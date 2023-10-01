@@ -1,6 +1,6 @@
 # diceRoller
 
-User lands on the page.
+User lands on the page
 
 User is able to select dice and how many sides.
 
