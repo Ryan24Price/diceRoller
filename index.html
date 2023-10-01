@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="diceRoller.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/d100.gif" alt="dice roller logo" width="10%">   
+        <h5>Dice Game CLow 3 dice</h5>
+        <h6> By Devs LLC. </h6> 
+    </header>
+    <nav>
+        <p>Click Button to Roll Dice</p>
+    </nav>
+    <article>
+        <img src="images/D6.png" alt="d6 dice image" width="200px" height="200px" id="dice">
+        <button class="button" id="d6" onclick="diceRoll(1,6, 'roll6')">Roll Dice</button>
+        <h1 id="roll6"> </h1>
+    </article>
+    <article>
+        <img src="images/D10.png" alt="d8 dice image" width="200px" height="200px" id="dice">
+        <button class="button" id="d10" onclick="diceRoll(1,10, 'roll10')">Roll Dice</button>
+        <h1 id="roll10"> </h1>
+    </article>
+    <article>
+        <img src="images/D20.jpg" alt="d10 dice image" width="200px" height="200px">
+        <button class="button" id="d20" onclick="diceRoll(1,20, 'roll20')">Roll Dice</button>
+        <h1 id="roll20"> </h1>
+    <footer>
+            <p>Copyright Info 2050: Devs LLC.</p>
+    </footer>
+</body>
+</html>
